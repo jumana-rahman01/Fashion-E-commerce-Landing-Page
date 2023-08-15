@@ -1,0 +1,647 @@
+/* All Common CSS Starts */
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.br{
+    border-right: 0 !important;
+}
+.mr{
+    margin-right: 40px !important;
+}
+/* All Common CSS Ends */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Part Starts */
+#header{
+    background-color: #EEDDCC;
+}
+.box{
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+}
+.box-2{
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+}
+.dots-1{
+    position: absolute;
+    top: 140px;
+    right: 90px;
+}
+.dots-2{
+    position: absolute;
+    bottom: -60px;
+    left: 720px;
+}
+.dots-3{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.wave{
+    position: absolute;
+    bottom: -197px;
+    right: 0;
+}
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+.logo{
+    width: 30%;
+}
+.logo a{
+    color: #34251F;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+}
+.menubar ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.menubar ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color: #34251F;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.menubar ul li a:hover{
+    color: #816954;
+}
+.login ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.login{
+    margin-left: 100px;
+}
+.login ul li a{
+    line-height: 40px;
+}
+.login ul li a img{
+    position: absolute;
+    top: 22px;
+    right: 320px;
+    height: 25px;
+    width: 25px;
+}
+.btn{
+    position: absolute;
+    top: 15px;
+    font-size: 16px;
+    color: #34251F;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #34251F;
+    border-radius: 4px;
+    padding: 0px 23px;
+    transition: all linear .3s;
+}
+.btn:hover{
+    background: rgba(210, 169, 132, 0.6);
+}
+/* Header Part Ends */
+
+/* Banner Part Starts */
+#banner{
+    padding: 85px 0 100px 0;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    margin-right: 200px;
+}
+.banner-text h2{
+    width: 432px;
+    line-height: 82px;
+    color: #34251F;
+    font-size: 64px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.banner-text p{
+    width: 475px;
+    color: #34251F;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.banner-text a{
+    position: absolute;
+    padding: 10px 23px;
+    background: #34251F;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    border: 1px solid #34251F;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.9);
+    transition: .3s;
+}
+.banner-text a:hover{
+    background: transparent;
+    color: #34251F;
+    box-shadow: none;
+}
+.banner-img img{
+    position: relative;
+    width: 481px;
+    height: 589px;
+}
+/* Banner Part Ends */
+
+/* New Collection Part Starts */
+#collection{
+    padding: 80px 0 0 0;
+    background: url(../images/collection-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    padding-bottom: 80px;
+}
+.title h2{
+    color: #000000;
+    font-size: 64px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre' serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.title p{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Frank Ruhl Libre' serif;
+    text-align: center;
+}
+.collection-gallery{
+    padding-bottom: 170px;
+}
+.collection-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection-image img{
+    width: 532px;
+    height: 688px;
+    margin-top: 50px;
+}
+.collection-texts{
+    margin-left: 50px;
+}
+.collection-texts h3{
+    width: 402px;
+    color: #000000;
+    font-size: 64px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 80px;
+}
+.collection-texts p{
+    width: 519px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.counter{
+    padding: 13px 40px;
+    background: #D2B79E;
+    box-shadow: 15px 20px 30px 0 rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+}
+.counter-content{
+    border-right: 1px solid #000000;
+    margin-left: 30px;
+    padding-right: 30px;
+}
+.counter-content .heading{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.counter-content .content{
+    width: 135px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* New Collection Part Ends */
+
+/* Best Seller Part Starts */
+#best-seller{
+    padding: 80px 0;
+    background: url(../images/seller-product-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.best-seller-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-seller-texts h2{
+    width: 402px;
+    color: #D0D0D0;
+    font-size: 64px;
+    font-weight: 900;
+    font-family:'Frank Ruhl Libre', serif;
+    line-height: 80px;
+}
+.best-seller-texts p{
+    width: 503px;
+    color: #F1F1F1;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+    padding: 20px 0 50px 0;
+}
+.best-seller-texts a{
+    padding: 10px 23px;
+    background: transparent;
+    color: #D2B79E;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    border: 1px solid #D2B79E;
+    border-radius: 4px;
+    transition: .5s;
+}
+.best-seller-texts a:hover{
+    border: 2px solid #D2B79E;
+}
+.best-seller-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-seller-img{
+    margin-left: 30px;
+}
+.best-seller-img img{
+    width: 325px;
+    height: 460px;
+}
+.circles ul{
+    margin-top: 10px;
+    margin-left: 35px;
+    display: flex;
+}
+.circles ul li{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #E0E0E0;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.active{
+    background: #E0E0E0;
+}
+/* Best Seller Part Ends */
+
+/* Product Part Starts */
+#products{
+    padding: 80px 0 180px 0;
+    background: url(../images/product-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#products::before{
+    position: absolute;
+    height: 645px;
+    width: 3px;
+    background: #000000;
+    content: '';
+    top: 50px;
+    left: 50px;
+}
+#products::after{
+    position: absolute;
+    width: 645px;
+    height: 3px;
+    background: #000000;
+    content: '';
+    top: 50px;
+    left: 50px;
+}
+.product-title h2{
+    color: #000000;
+    font-size: 64px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre' serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.product-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-menu ul li{
+    margin-left: 100px;
+}
+.product-menu ul li a{
+    padding: 10px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0px solid transparent;
+    transition: .3s;
+}
+.product-menu ul li a:hover{
+    font-weight: 900;
+    border-bottom: 3px solid #000000;
+}
+.product-gallery{
+    padding-top: 100px;
+}
+.product-details{
+    padding-top: 10px;
+}
+.product-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-details{
+    width: 195px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+.product-details ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-details ul li{
+    margin-left: 5px;
+}
+.product-details h4{
+    width: 195px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 10px 0;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+.price h4{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration-line: line-through;
+}
+.price h5{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+/* Product Part Ends */
+
+/* Deal Part Starts */
+#deal{
+    background: url(../images/deal-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.deal-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-texts h2{
+    color: #000000;
+    font-size: 64px;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: capitalize;
+}
+.deal-texts p{
+    width: 649px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 30px;
+    padding: 40px 0;
+}
+.deal-texts a{
+    padding: 10px 23px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    transition: .3s;
+}
+.deal-texts a:hover{
+    background: transparent;
+    color: #000000;
+}
+.day{
+    display: flex;
+    padding-bottom: 70px;
+}
+.day-content{
+    width: 90px;
+    padding: 3px 7px;
+    background: #884F42;
+    border: 2px solid #000000;
+    box-shadow: 10px 5px 4px 0 rgba(0, 0, 0, 0.625);
+    margin-right: 35px;
+}
+.day-content h3{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.day-content h5{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.deal-img{
+    margin-left: 30px;
+}
+.deal-img img{
+    position: relative;
+    width: 519px;
+    height: 650px;
+    margin-top: -80px;
+    box-shadow: 4px 0 30px 0 rgba(0, 0, 0, 0.25);
+}
+/* Deal Part Ends */
+
+/* Review Part Starts */
+#review{
+    padding: 80px 0 0 0;
+}
+.review-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-img{
+    margin-right: 35px;
+    padding-bottom: 50px;
+}
+.review-circle{
+    padding-bottom: 150px;
+}
+.review-circle ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-circle ul li{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #2D2727;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.review-circle-active{
+    background: #2D2727;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Review Part Ends */
+
+/* Footer Part Starts */
+#footer{
+    padding: 80px 0 30px 0;
+    background: #412F28;
+}
+.insta {
+    position: relative;
+	width: 537px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #AC8E8E;
+	text-align: center;
+    margin-top: -120px;
+}
+.insta h2{
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.insta span{
+    font-weight: 900;
+}
+.footer-menu{
+    padding-top: 70px;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.footer-menu ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color: #EEDDCC;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.footer-menu ul li a:hover{
+    color: rgba(238, 221, 204, 0.7);
+}
+.copyright p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+/* Footer Part Ends */
